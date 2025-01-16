@@ -1,67 +1,477 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My friend</title>
-    <link rel="stylesheet" href="app.css">
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title> MY FRIEND </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Découvrez l'agenda biblique : <span>"My friend"</span></h1>
-            <p>Une aventure captivante qui transformera votre vision du monde.</p>
-        </div>
-    </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>À propos du livre</h2>
-            <p>
-                Ce livre est une exploration passionnante de la spiritualité, la motivation. Écrit par Maurel DJIKI,
-                il vous invite à développer vos compétences, votre motivation et votre self control.
-            </p>
-        </div>
-    </section>
+  <div class="hero_area">
 
-    <section id="details">
-        <div class="container">
-            <h2>Détails</h2>
-            <ul>
-                <li>🖋 Auteur : Maurel DJIKI</li>
-                <li>📖 Genre : Agenda</li>
-                <li>📆 Date de publication : 2024</li>
-                <li>📚 Pages : 380</li>
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              MY FRIEND, mon agenda biblique
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">L'agenda <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#order">Commander</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#author">L'auteur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonies">Témoignages</a>
+              </li>
             </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Inspiration <br>
+                    </h1>
+                    <p>
+                      Avec My Friend, transformez chaque jour en une opportunité de croissance spirituelle et
+                      personnelle.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Organisation <br>
+                    </h1>
+                    <p>
+                      Un compagnon pratique et inspirant, conçu pour nourrir votre âme tout en structurant vos journées.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Spiritualité <br>
+                    </h1>
+                    <p>
+                      My Friend : l’agenda qui allie foi et organisation pour un quotidien équilibré et spirituellement
+                      enrichi.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="img-box">
+                    <img src="images/slider-img.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+          <li data-target="#customCarousel1" data-slide-to="2"></li>
+        </ol>
+      </div>
 
-    <section id="purchase">
-        <div class="container">
-            <h2>Commander votre exemplaire</h2>
-            <p>Disponible au prix de <strong>5000 FCFA</strong></p>
-            <a href="https://wa.me/237655298085" class="btn">Commander maintenant</a>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding" id="order">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Commander l'<span>agenda</span>
+          </h2>
+          <p>
+            Différents formats existent en fonction de votre localisation : numérique (Kindle), audio (sur Audible) et
+            papier (sur Livraison).
+          </p>
         </div>
-    </section>
-
-    <section id="form">
-        <div class="container">
-            <h2>Newsletter</h2>
-            <p>Soyez les premiers informés. Inscrivez-vous à notre newsletter</p>
-            <form action="#" method="post">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-                
-                <button type="submit" class="btn">S'inscrire</button>
-            </form>
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Amazon
+                </h5>
+                <p>
+                  Pour les personnes résidents en Europe, Amérique, Asie, Océanie et Afrique du Nord.
+                </p>
+                <div class="btn-box">
+                  <a href="https://amzn.eu/d/eg8XPnZ" target="_blank">
+                    Commander sur Amazon
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/s2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Whatsapp
+                </h5>
+                <p>
+                  Recommandé pour les personnes résidents au Cameroun et Afrique subsaharienne. </p>
+                <div class="btn-box">
+                  <a href="https://wa.me/237655298085" target="_blank">
+                    Commander sur WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 - Tous droits réservés. | Contact : <a href="mailto:maureldjiki@gmail.com">maureldjiki@gmail.com</a></p>
-    </footer>
+  <!-- end service section -->
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding" id="author">
+    <div class="container  ">
+      <div class="heading_container heading_center">
+        <h2>
+          L' <span>auteur</span>
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h3>
+              Maurel DJIKI
+            </h3>
+            <p>
+              Jeune auteur de 25 ans originaire de Yaoundé, au Cameroun, est un passionné de spiritualité et de
+              développement personnel. Animé par le désir d'inspirer et d'accompagner les croyants dans leur cheminement
+              quotidien, il a créé My Friend, un agenda biblique unique et innovant.
+            </p>
+            <p>
+              Maurel combine sa foi profonde avec une approche moderne pour proposer un outil pratique et inspirant. My
+              Friend se distingue par ses versets bibliques soigneusement sélectionnés, ses pensées encourageantes, et
+              ses espaces dédiés à la réflexion personnelle et à l'organisation quotidienne.
+            </p>
+            <p>
+              L'agenda est disponible en français et en anglais, afin de toucher un large public à travers le monde. Il
+              s'adresse à toutes les personnes en quête d’un compagnon spirituel et pratique pour structurer leur vie
+              tout en nourrissant leur foi.
+            </p>
+            <p>
+              Avec My Friend, Maurel DJIKI offre bien plus qu’un simple agenda : c’est un guide spirituel, une source
+              d'inspiration et un véritable ami pour les moments de prière, de réflexion et de planification
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- why section -->
+  <section class="why_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Pourquoi choisir <span>My Friend</span>
+        </h2>
+      </div>
+      <div class="why_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w1.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Rédigé par des experts
+            </h5>
+            <p>
+              Cet agenda a été mis au point grâce à la contribution de plusieurs experts dans les domaines de la
+              motivation, developpment personnel mais également des réligeux, entrepreneurs et experts d'autres
+              professions afin d'avoir un regard large sur la façon de proposer les contenus.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w2.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Disponible en plusieurs langues
+            </h5>
+            <p>
+              Afin de faire bénéficier l'agenda au plus nombre, nous avons choisi de faire traduire l'agenda en
+              plusieurs langues (Français et Anglais). Plusieurs autres traduisent arrivent (Portugais, Allemand...).
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/w3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Livraison à l'international
+            </h5>
+            <p>
+              Grâce à notre partenaire Amazon, nous livrons dans la plupart des pays du monde.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end why section -->
+
+  <!-- team section -->
+
+  <section class="team_section layout_padding" id="testimonies">
+    <div class="container-fluid">
+      <div class="heading_container heading_center">
+        <h2 class="">
+          Ce que nos <span>clients</span> disent
+        </h2>
+      </div>
+
+      <div class="team_container">
+        <div class="carousel-wrap ">
+          <div class="owl-carousel client_owl-carousel">
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/team-1.jpg" class="img1" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Idriss, 19 ans, entrepreneur
+                  </h5>
+                  <p>
+                    Yaoundé, Cameroun
+                  </p>
+                  <p>
+                    Je suis ravi de mon achat ! Cet agenda biblique My Friend est bien conçu et pratique. Les versets et
+                    pensées bibliques me motivent à rester concentré sur ce qui compte vraiment dans ma vie. J'aime
+                    aussi
+                    l'espace pour noter mes objectifs spirituels et mes prières. Un outil formidable pour allier
+                    organisation et foi.Je suis ravi de mon achat ! Cet agenda biblique est bien conçu et pratique. Les
+                    versets et pensées bibliques me motivent à rester concentré sur ce qui compte vraiment dans ma vie.
+                    J'aime aussi l'espace pour noter mes objectifs spirituels et mes prières. Un outil formidable pour
+                    allier organisation et foi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/team-2.jpg" class="img1" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Marie, 34 ans, enseignante
+                  </h5>
+                  <p>
+                    Paris, France
+                  </p>
+                  <p>
+                    L'agenda biblique My Friend est devenu une vraie source d'inspiration quotidienne pour moi. Chaque
+                    page commence par un verset biblique, ce qui me permet de démarrer mes journées avec une pensée
+                    positive et spirituelle. La qualité de l'agenda est excellente, et j'apprécie les sections dédiées
+                    pour mes réflexions personnelles. C'est bien plus qu'un simple agenda, c'est un guide pour garder ma
+                    foi au centre de mes priorités.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end team section -->
+
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2" style="background: linear-gradient(130deg, #231a6f, #0f054c) !important;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 info_col">
+          <div class="info_contact">
+            <h4>
+              Adresse
+            </h4>
+            <div class="contact_link_box">
+
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Tel : +237655298085
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  maureldjiki@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="https://www.facebook.com/maurel.djiki?groupid=970047566661203&_rdr">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/maurel-djiki-71a5881b5/?originalSubdomain=cm">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+              MyFriend, l'agenda biblique qui illumine vos journées avec des versets inspirants, tout en vous aidant à organiser votre vie avec foi et sérénité.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> Tous droits reservés
+        <a href="mailto:maureldjiji@gmail.fr">maureldjiji@gmail.fr</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+
 </body>
+
 </html>
